@@ -12,10 +12,11 @@
   font-size: 3rem;
   font-weight: bold;
   color: #efdd16;
-  &.odd {
+ 
+}
+ #timer.odd {
     color: #264653;
   }
-}
 button {
   border-radius: 5px;
   display: inline-block;
@@ -32,7 +33,7 @@ button {
   transition: background 250ms ease-in-out;
   -webkit-appearance: none;
   -moz-appearance: none;
-  &:hover {
-    background: #f4a261;
-  }
+}
+button:hover {
+  background: #f4a261;
 }
